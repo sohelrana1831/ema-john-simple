@@ -1,0 +1,29 @@
+.product {
+    border-bottom: 2px solid lightgrey;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.product-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-info h4 {
+    color: blue;
+    font-weight: 400;
+}
+
+.product-info-cart button {
+    background-color: #f0c14b;
+    color: #111;
+    border-color: #a88734 #9c7e31 #846a29;
+    margin: 10px 0;
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.icon-color {
+    color: #ffd700;
+}
